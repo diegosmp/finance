@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Diego",
+            "balance": 5000.00
+        },
+        {
+            "id": 1,
+            "name": "Fulano",
+            "balance": -100.00
+        }
+    ]
+}

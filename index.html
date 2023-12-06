@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Finança</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>FINANÇA</h1>
+        </header>
+        <section class="section">
+            <aside class="aside">
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                    <label for="balance">Saldo:</label>
+                    <input type="number" name="balance" id="balance" placeholder="Saldo">
+                    <button class="btn" type="submit" id="addUser">Cadastrar</button>
+                    <button class="btn" type="submit" id="addBalance">Depositar</button>
+                    <button class="btn" type="submit" id="withdraw">Sacar</button>
+                </form>
+            </aside>
+            <main class="main">
+                <div id="financeAll"></div>
+            </main>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
